@@ -35,7 +35,7 @@ namespace MasterBanco.Classes.Entidade
             //A.K.A "Query"
             string consulta = "INSERT INTO Contas(Titular, NumeroDaConta, Saldo)" +
                 "VALUES" +
-                "(@Titular, @NumeroDaConta, @Saldo)"; //o "@" server como uma chamada genérica, que vai ser sobreposto pelo valor a ser chamado
+                "(@Titular, @NumeroDaConta, @Saldo)"; //o "@" serve como uma chamada genérica, que vai ser sobreposto pelo valor a ser chamado
             using (SqlConnection conexao = new SqlConnection(conectarCaminho))
             using (SqlCommand comando = new SqlCommand(consulta, conexao))
             {
@@ -81,9 +81,51 @@ namespace MasterBanco.Classes.Entidade
         }
 
         //[U]pdate
+        public static void ModificarContas(int id, string titular, int numeroConta, decimal saldo)
+        {
+            string consulta = "UPDATE Contas SET Titular = @titular, NumeroDaConta = @numeroConta, Saldo = @saldo WHERE Id = @id";
+            using (SqlConnection conexao = new SqlConnection(conectarCaminho))
+            using (SqlCommand comando = new SqlCommand(consulta, conexao))
+            {
+                comando.Parameters.AddWithValue("@id", id);
+                comando.Parameters.AddWithValue("@titular", titular);
+                comando.Parameters.AddWithValue("@numeroConta", numeroConta);
+                comando.Parameters.AddWithValue("@saldo",  saldo);
 
+                conexao.Open();
+                int resultado = comando.ExecuteNonQuery();
+                if (resultado > 0)
+                {
+                    WriteLine("Conta atualizada com sucesso!");
+                }
+                else
+                {
+                    WriteLine("Conta não encontrada!");
+                }
+            }
+        }
 
+        //[D]elete
+        public static void DeletarContas(int id)
+        {
+            string consulta = "DELETE FROM Contas WHERE Id = @id";
+            using (SqlConnection conexao = new SqlConnection(conectarCaminho))
+            using (SqlCommand comando = new SqlCommand(consulta, conexao))
+            {
+                comando.Parameters.AddWithValue("@id", id);
+                conexao.Open();
+                int resultado = comando.ExecuteNonQuery();
+                if (resultado > 0)
+                {
+                    WriteLine("Conta deletada com sucesso.");
+                }
+                else
+                {
+                    WriteLine("Conta não encontrada.");
+                }
+            }
 
+        }
 
     }
 }
