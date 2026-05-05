@@ -13,5 +13,5 @@ Banco.ModificarContas(22, "Dango", 1005, 5029.50m);
 Banco.LerContas();
 */
 
-Banco.DeletarContas(67);
+Banco.DeletarContas(0);
 Banco.LerContas();
