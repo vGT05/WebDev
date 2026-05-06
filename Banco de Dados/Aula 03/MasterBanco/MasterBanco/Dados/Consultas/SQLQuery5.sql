@@ -1,2 +1,0 @@
-DELETE FROM Contas 
-WHERE Id = 20;
