@@ -84,3 +84,4 @@ C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 01\Tibia\Tibia\obj\De
 C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 01\Tibia\Tibia\obj\Debug\net10.0\Tibia.pdb
 C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 01\Tibia\Tibia\obj\Debug\net10.0\Tibia.genruntimeconfig.cache
 C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 01\Tibia\Tibia\obj\Debug\net10.0\ref\Tibia.dll
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 01\Tibia\Tibia\obj\Debug\net10.0\Tibia.sourcelink.json
