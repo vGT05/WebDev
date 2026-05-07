@@ -1,0 +1,42 @@
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\bin\Debug\net10.0\appsettings.json
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\bin\Debug\net10.0\Projet_Web_01.staticwebassets.runtime.json
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\bin\Debug\net10.0\Projet_Web_01.staticwebassets.endpoints.json
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\bin\Debug\net10.0\Projet_Web_01.exe
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\bin\Debug\net10.0\Projet_Web_01.deps.json
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\bin\Debug\net10.0\Projet_Web_01.runtimeconfig.json
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\bin\Debug\net10.0\Projet_Web_01.dll
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\bin\Debug\net10.0\Projet_Web_01.pdb
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\EmbeddedAttribute.cs
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\ValidatableTypeAttribute.cs
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\Projet Web 01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\Projet Web 01.AssemblyInfoInputs.cache
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\Projet Web 01.AssemblyInfo.cs
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\Projet Web 01.csproj.CoreCompileInputs.cache
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\Projet_Web_01.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\Projet Web 01.sourcelink.json
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\scopedcss\Components\Layout\ReconnectModal.razor.rz.scp.css
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\scopedcss\bundle\Projet_Web_01.styles.css
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\scopedcss\projectbundle\Projet_Web_01.bundle.scp.css
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\compressed\tj4il7wxxa-{0}-cwis1423tz-cwis1423tz.gz
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\compressed\8fi4nw6mwn-{0}-abdmv1u4y3-abdmv1u4y3.gz
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\compressed\8yyz7l5rh7-{0}-qcnkhbt5lj-qcnkhbt5lj.gz
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\compressed\y8vzeaq1cu-{0}-12rnbzdyyc-12rnbzdyyc.gz
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\compressed\8uh94qk77r-{0}-nj9i3mm0bm-nj9i3mm0bm.gz
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\compressed\y7xp96sn9q-{0}-nj9i3mm0bm-nj9i3mm0bm.gz
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\Projet_Web_01.dll
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\refint\Projet_Web_01.dll
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\Projet_Web_01.pdb
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\Projet Web 01.genruntimeconfig.cache
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\ref\Projet_Web_01.dll
