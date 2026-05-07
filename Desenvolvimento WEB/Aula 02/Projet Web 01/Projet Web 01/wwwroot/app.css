@@ -36,8 +36,9 @@ h1:focus {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
     text-align: start;
 }
-
-.cabecalo {
+/*estilo cabeçalho*/
+.cabecalo 
+{
     color: white;
     background-color: #e30613;
         margin:0;
@@ -46,3 +47,22 @@ h1:focus {
         font-size: 3rem;
         font-family: sans-serif;
 }
+/*estilo rodapé*/
+.footer {
+    justify-content: center;
+    align-items: end;
+    display: flex;
+    padding: 10px;
+    background-color: #e30613;
+    font-size: 1em;
+    color:white
+}
+
+.footer-texto
+{
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 0.75rem;
+    color: lightgray;
+}
+

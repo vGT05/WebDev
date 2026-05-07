@@ -23,7 +23,6 @@ C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Proj
 C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\scopedcss\Components\Layout\ReconnectModal.razor.rz.scp.css
 C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\scopedcss\bundle\Projet_Web_01.styles.css
 C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\scopedcss\projectbundle\Projet_Web_01.bundle.scp.css
-C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\compressed\tj4il7wxxa-{0}-cwis1423tz-cwis1423tz.gz
 C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\compressed\8fi4nw6mwn-{0}-abdmv1u4y3-abdmv1u4y3.gz
 C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\compressed\8yyz7l5rh7-{0}-qcnkhbt5lj-qcnkhbt5lj.gz
 C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\compressed\y8vzeaq1cu-{0}-12rnbzdyyc-12rnbzdyyc.gz
@@ -40,3 +39,4 @@ C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Proj
 C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\Projet_Web_01.pdb
 C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\Projet Web 01.genruntimeconfig.cache
 C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\ref\Projet_Web_01.dll
+C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\Projet Web 01\obj\Debug\net10.0\compressed\tj4il7wxxa-{0}-qtgkr76vgf-qtgkr76vgf.gz
