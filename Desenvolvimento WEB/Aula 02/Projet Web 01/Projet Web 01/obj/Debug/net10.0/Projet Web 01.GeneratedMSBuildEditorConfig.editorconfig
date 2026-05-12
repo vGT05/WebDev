@@ -26,6 +26,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/FIC/Documents/CSharp2026/Desenvolvimento WEB/Aula 02/Projet Web 01/Projet Web 01/Components/Pages/Cadastro.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYWRhc3Ryby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/FIC/Documents/CSharp2026/Desenvolvimento WEB/Aula 02/Projet Web 01/Projet Web 01/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,12 +42,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOb3RGb3VuZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/FIC/Documents/CSharp2026/Desenvolvimento WEB/Aula 02/Projet Web 01/Projet Web 01/Components/Pages/Parciais/Acesso.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQYXJjaWFpc1xBY2Vzc28ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/FIC/Documents/CSharp2026/Desenvolvimento WEB/Aula 02/Projet Web 01/Projet Web 01/Components/Pages/Parciais/CabecalhoPagina.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQYXJjaWFpc1xDYWJlY2FsaG9QYWdpbmEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/FIC/Documents/CSharp2026/Desenvolvimento WEB/Aula 02/Projet Web 01/Projet Web 01/Components/Pages/Parciais/Rodape.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQYXJjaWFpc1xSb2RhcGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FIC/Documents/CSharp2026/Desenvolvimento WEB/Aula 02/Projet Web 01/Projet Web 01/Components/Pages/Parciais/TelaLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQYXJjaWFpc1xUZWxhTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/FIC/Documents/CSharp2026/Desenvolvimento WEB/Aula 02/Projet Web 01/Projet Web 01/Components/Routes.razor]

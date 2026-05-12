@@ -1,0 +1,52 @@
+﻿@page "/cadastro"
+<CabecalhoPagina/>
+
+<div class="cadastro-container">
+    <h2 class="cadastro-cabecalho">
+        <i data-lucide="user-plus" class="cadastro-icone"></i>
+        Novo Usuario
+    </h2>
+
+    <!--Adicionar evento 'submit' no código C# p/ capturar os dados-->
+    <form class="cadastro-form">
+
+        <div class="form-grupo">
+            <label class="form-label">Nome do Usuário</label>
+            <input type="text" class="form-input"/>
+        </div>
+
+        <div class="form-grupo">
+            <label class="form-label">RA</label>
+            <input type="number" class="form-input"/>
+        </div>
+
+        <div class="form-grupo">
+            <label class="form-label">Curso</label>
+            <select class="form-input">
+                <option value="">Selecione...</option>
+                <option>Desenvolvedor Back-End</option>
+                <option>Programação em Java</option>
+                <option>Fundamentos de Python</option>
+            </select>
+        </div>
+
+
+    </form>
+</div>
+
+<Rodape/>
+
+
+
+
+
+
+
+
+
+
+
+
+@code {
+
+}
