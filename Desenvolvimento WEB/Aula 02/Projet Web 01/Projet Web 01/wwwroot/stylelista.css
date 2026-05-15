@@ -1,0 +1,40 @@
+﻿.lista-alunos-section{
+    width:100%;
+    align-items:center;
+    margin:0 auto;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.lista-alunos-container{
+    border: solid;
+    border-radius: 0.5rem;
+}
+
+.tabela-w{
+    overflow-x:auto;
+
+}
+
+.tabela-alunos{
+    min-width:100%;
+    border-collapse: collapse;
+}
+
+.tabela-alunos thead{
+    background-color: #f9fafb;
+}
+
+.tabela-alunos th{
+    padding: 0.75rem 1.5rem;
+    text-align: left;
+    font-size: 0.75rem;
+    color: #6b7280;
+    text-transform:uppercase;
+    letter-spacing:0.05rem;
+}
+
+.tabela-alunos2 {
+    background-color: lightgray;
+}
