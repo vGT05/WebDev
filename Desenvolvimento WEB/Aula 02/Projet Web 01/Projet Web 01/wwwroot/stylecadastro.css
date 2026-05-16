@@ -31,11 +31,15 @@
 .btn-cadastro {
     margin-top: 1rem;
     width: 100%;
-    background-color: black;
+    transition: all 0.3s ease-in-out;
+    background-color: #e30613;
     color: white;
+    border: 1px solid transparent;
     border-radius: 0.25rem;
     cursor: pointer;
 }
-.btn-cadastro:hover{
-    color:yellow;
-}
+    .btn-cadastro:hover {
+        background-color: #991828;
+        transition: all 0.5s ease-in-out;
+        scale: 1.02;
+    }

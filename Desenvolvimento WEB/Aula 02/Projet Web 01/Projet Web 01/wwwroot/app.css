@@ -36,6 +36,23 @@ h1:focus {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
     text-align: start;
 }
+/*Sticky footer config*/
+*{
+    box-sizing: inherit;
+}
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
 /*estilo cabeçalho*/
 .cabecalo 
 {
@@ -50,7 +67,7 @@ h1:focus {
 /*estilo rodapé*/
 .footer {
     justify-content: center;
-    align-items: end;
+    align-items: center;
     display: flex;
     padding: 20px;
     background-color: #e30613;
@@ -137,7 +154,7 @@ h1:focus {
     width: 100%;
 }
 
-.btn-login{
+.btn-login {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -151,26 +168,34 @@ h1:focus {
     background-color: #e30613;
     cursor: pointer;
     transition: background-color 0.2s;
+    transition: all 0.35s ease-in-out;
 }
 
 .btn-login:hover{
     background-color: #991828;
-}
+    scale:1.05;
+    transition: all 0.35s ease-in-out;
 
-.btn-login:focus{
-    outline: none;
-    box-shadow: 0 0 0 3px rgba(185, 29, 50, 0.5), 0 0 0 2px rgba(185, 29, 50, 0.2);
 }
-
+.btn-login:active {
+    background-color: #FF7B8C;
+    scale: 1.04;
+}
 /*Campo sem acesso*/
 .acesso{
     background-color: #e0e0e0;
-    align-items: center;
+    align-items: end;
     text-align: center;
     padding: 10px;
 }
 
 .acesso:hover{
     transition:all .5s ease-in-out;
-    scale: 1.1;
+    scale:1.05;
+}
+
+.link-cabecalho{
+    text-decoration:none;
+    color: white;
+    cursor:pointer;
 }

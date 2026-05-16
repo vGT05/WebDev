@@ -36,5 +36,23 @@
 }
 
 .tabela-alunos2 {
-    background-color: lightgray;
+    background-color: whitesmoke;
+}
+
+.tabela-alunos2 tr{
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.tabela-alunos2 td{
+    padding: 1rem 1.5rem;
+    font-size: 0.875rem;
+}
+
+.lista-alunos-cabecalho{
+    display: inline-flex;
+    align-items: center;
+}
+
+.lista-alunos-titulo, contador{
+    padding: 0.5rem 6.5rem;
 }
