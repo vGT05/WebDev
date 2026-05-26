@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3g8k9LnIGGI=",
+  "dgSpecHash": "cKKrdzTWLDo=",
   "success": true,
   "projectFilePath": "C:\\Users\\FIC\\Documents\\CSharp2026\\Desenvolvimento WEB\\Aula 02\\Projet Web 01\\Projet Web 01\\Projet Web 01.csproj",
   "expectedPackageFiles": [
@@ -12,9 +12,9 @@
     "C:\\Users\\FIC\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.5.0\\microsoft.codeanalysis.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\FIC\\.nuget\\packages\\microsoft.codeanalysis.csharp.workspaces\\4.5.0\\microsoft.codeanalysis.csharp.workspaces.4.5.0.nupkg.sha512",
     "C:\\Users\\FIC\\.nuget\\packages\\microsoft.codeanalysis.workspaces.common\\4.5.0\\microsoft.codeanalysis.workspaces.common.4.5.0.nupkg.sha512",
-    "C:\\Users\\FIC\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0\\microsoft.entityframeworkcore.8.0.0.nupkg.sha512",
-    "C:\\Users\\FIC\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.0\\microsoft.entityframeworkcore.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\FIC\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.0\\microsoft.entityframeworkcore.analyzers.8.0.0.nupkg.sha512",
+    "C:\\Users\\FIC\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.8\\microsoft.entityframeworkcore.10.0.8.nupkg.sha512",
+    "C:\\Users\\FIC\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.8\\microsoft.entityframeworkcore.abstractions.10.0.8.nupkg.sha512",
+    "C:\\Users\\FIC\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.8\\microsoft.entityframeworkcore.analyzers.10.0.8.nupkg.sha512",
     "C:\\Users\\FIC\\.nuget\\packages\\microsoft.entityframeworkcore.design\\8.0.0\\microsoft.entityframeworkcore.design.8.0.0.nupkg.sha512",
     "C:\\Users\\FIC\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.0\\microsoft.entityframeworkcore.relational.8.0.0.nupkg.sha512",
     "C:\\Users\\FIC\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\10.0.8\\microsoft.entityframeworkcore.tools.10.0.8.nupkg.sha512",

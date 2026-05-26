@@ -191,7 +191,7 @@ body{
 
 .acesso:hover{
     transition:all .5s ease-in-out;
-    scale:1.05;
+    scale: 1 1.3;   
 }
 
 .link-cabecalho{
