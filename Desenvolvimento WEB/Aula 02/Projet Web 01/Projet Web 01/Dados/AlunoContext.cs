@@ -8,7 +8,7 @@ namespace Projet_Web_01.Dados
         public DbSet<Aluno> Alunos { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer();
+            optionsBuilder.UseSqlServer( );
         }
     }
 }
