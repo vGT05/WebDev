@@ -1,4 +1,12 @@
 ﻿@page "/listadeusuarios"
+@using Projet_Web_01.Dados
+@using Projet_Web_01.Classes.Entidades
+@using Microsoft.EntityFrameworkCore
+@inject AlunoContext alunoContext
+@rendermode InteractiveServer
+
+
+
 <div class="wrapper">
 <CabecalhoPagina/>
 <section class="lista-alunos-section">

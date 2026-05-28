@@ -182,18 +182,17 @@ body{
     scale: 1.04;
 }
 /*Campo sem acesso*/
-.acesso{
+.acesso {
     background-color: #e0e0e0;
     align-items: end;
-    text-align: center;
     padding: 10px;
+    text-align: center;
+    transition:all .5s ease-in-out;
 }
-
 .acesso:hover{
     transition:all .5s ease-in-out;
-    scale: 1 1.3;   
+    scale: 1 1.3;
 }
-
 .link-cabecalho{
     text-decoration:none;
     color: white;
