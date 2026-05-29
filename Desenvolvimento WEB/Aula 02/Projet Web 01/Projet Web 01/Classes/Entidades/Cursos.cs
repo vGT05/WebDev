@@ -5,8 +5,8 @@
         private Dictionary<int, string> cursos = new Dictionary<int, string>()
         {
             {1, "Desenvolvedor Back-end" },
-            {2, "Técnico em eletroeletronica" },
-            {3, "Mecânico de manutenção" }
+            {2, "Programação em JAVA" },
+            {3, "Fundamento do Python" }
         };
 
         public Dictionary<int,string> Curso

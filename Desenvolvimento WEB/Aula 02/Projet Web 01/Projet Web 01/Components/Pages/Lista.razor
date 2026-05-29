@@ -17,7 +17,7 @@
             </h2>
             <!--Implementar Lógica para contagem do C#-->
             <span class="contador">
-                0 Cadastros
+                @alunos.Count Cadastrados
             </span>
         </div>
         <div class="tabela-w">
@@ -31,21 +31,16 @@
                     </tr>
                 </thead>
                 <tbody class="tabela-alunos2">
-                    <tr>
-                        <!--Exemplo estático para visualização(remover quando implementar c#)-->
-                        <td>Clodoaldo</td>
-                        <td>Back-End</td>
-                        <td>Inativo</td>
-                        <td>Aguardando aprovação</td>
-                    </tr>
-                    <tr>
-                        <!--Exemplo estático para visualização(remover quando implementar c#)-->
-                        <td>Cléber</td>
-                        <td>Power BI</td>
-                        <td>Ativo</td>
-                        <td>Aprovado</td>
-                    </tr>
-                </tbody>
+                        @foreach(var aluno in alunos)
+                        {
+                            <tr>
+                                <td>@aluno.Nome</td>
+                                <td>@ObterNomeCurso(aluno.CursoID)</td>
+                                <td>@aluno.StatusWIFI</td>
+                                <td>@aluno.StatusAction</td>
+                            </tr>
+                        }
+                    </tbody>
             </table>
         </div>
     </div>
@@ -55,5 +50,21 @@
 </div>
 
 @code {
-    
+    private List<Aluno> alunos = new List<Aluno>();
+    private Cursos cursos = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        //Carrega os alunos do bando de dados
+        alunos = await alunoContext.Alunos.ToListAsync();
+    }
+
+    private string ObterNomeCurso (int curso)
+    {
+        if (cursos.Curso.TryGetValue(curso, out var nomeCurso))
+        {
+            return nomeCurso;
+        }
+        return "Curso não encontrado";
+    }
 }

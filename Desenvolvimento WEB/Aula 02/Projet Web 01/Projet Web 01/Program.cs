@@ -1,6 +1,8 @@
 using Projet_Web_01.Components;
 using Projet_Web_01.Classes.Entidades;
 using Projet_Web_01.Dados;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Data.SqlClient;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +14,8 @@ context.Database.EnsureCreated();
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
+
+builder.Services.AddDbContext<AlunoContext>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
