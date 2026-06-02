@@ -1,4 +1,11 @@
 ﻿@page "/cadastro"
+@using Projet_Web_01.Classes.Entidades
+@using Projet_Web_01.Classes.Serv
+@using Projet_Web_01.Dados
+@inject AlunoService alunoService
+@inject NavigationManager navigationManager
+@rendermode InteractiveServer
+
 <div class="wrapper">
 <CabecalhoPagina/>
 <div class="cadastro-container">
@@ -35,10 +42,41 @@
         </button>
     </form>
 </div>
-
 <Rodape/>
 </div>
 
 @code {
+    private Cursos cursos = new Cursos();
+    private Aluno novoAluno = new Aluno();
+    private string mensagem_de_Erro = string.Empty;
+    private string mensagem_de_Sucesso = string.Empty;
+    private bool cadastrando = false;
+
+    private async Task CadastrarAluno()
+    {
+        cadastrando = true;
+        mensagem_de_Erro = string.Empty;
+        mensagem_de_Sucesso = string.Empty;
+
+        try
+        {
+            var resultado = await alunoService.CadastrarAluno(novoAluno);
+
+            if (resultado.Sucesso)
+            {
+                mensagem_de_Sucesso = resultado.Mensagem;
+                await Task.Delay(1000);
+                navigationManager.NavigateTo("/listadeusuarios");
+            }
+            else
+            {
+                mensagem_de_Erro = resultado.Mensagem;
+            }
+        }
+        catch
+        {
+            
+        }
+    }
 
 }
