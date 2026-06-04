@@ -1,7 +1,5 @@
 ﻿using Projet_Web_01.Classes.Entidades;
 using Projet_Web_01.Dados;
-using Projet_Web_01.Classes.Entidades;
-
 
 namespace Projet_Web_01.Classes.Serv
 {
@@ -63,7 +61,7 @@ namespace Projet_Web_01.Classes.Serv
                 return new ResultadoCadastro
                 {
                     Sucesso = false,
-                    Mensagem = $"Erro ao cadastras o aluno: {ex.Message}"
+                    Mensagem = $"Erro ao cadastrar o aluno: {ex.Message}"
                 };
             }
         }
