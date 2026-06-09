@@ -23,12 +23,22 @@ namespace AplicativoDesktop01
             if (comparacao1 & comparacao2)
             {
                 MessageBox.Show("Usuário e senha corretos!");
+                this.Hide();
+                using(var telaAdm = new TelaAdmin())
+                {
+                    telaAdm.ShowDialog();
+                }
                 this.Close();
             }
             else
             {
                 MessageBox.Show("Usuário ou senha incorretos.");
-            }            
+            }
+        }
+
+        private void TelaLogin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

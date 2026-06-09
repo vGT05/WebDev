@@ -3,6 +3,7 @@ using Projet_Web_01.Classes.Entidades;
 using Projet_Web_01.Dados;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Data.SqlClient;
+using Projet_Web_01.Classes.Serv;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +17,7 @@ builder.Services.AddRazorComponents()
 
 
 builder.Services.AddDbContext<AlunoContext>();
+builder.Services.AddScoped<AlunoService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

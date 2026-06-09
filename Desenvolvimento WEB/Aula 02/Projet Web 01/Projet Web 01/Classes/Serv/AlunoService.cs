@@ -45,6 +45,17 @@ namespace Projet_Web_01.Classes.Serv
                 //Definir os status padrão para novos cadastros
                 aluno.StatusWIFI = "Inativo";
                 aluno.StatusAction = "Aguardando aprovação.";
+                
+                if (string.IsNullOrWhiteSpace(aluno.Email))
+                {
+                    aluno.Email = $"ra{aluno.RA}@aluno.local";
+                }
+                
+                if (string.IsNullOrEmpty(aluno.Senha))
+                {
+                    aluno.Senha = aluno.RA.ToString();   
+                }   
+                                
                 //Adicionar o aluno no banco de dados
                 dbContext.Alunos.Add(aluno);
                 await dbContext.SaveChangesAsync();

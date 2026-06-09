@@ -10,35 +10,45 @@
 <CabecalhoPagina/>
 <div class="cadastro-container">
     <h2 class="cadastro-cabecalho">
-        <!--  <i data-lucide="user-plus" class="cadastro-icone"></i>  -->
         Novo Usuario
     </h2>
 
-    <!--Adicionar evento 'submit' no código C# p/ capturar os dados-->
-    <form class="cadastro-form">
+        @if (!string.IsNullOrEmpty(mensagem_de_Erro))
+        {
+            <div>@mensagem_de_Erro</div>
+        }
 
+        @if (!string.IsNullOrEmpty(mensagem_de_Sucesso))
+        {
+            <div>@mensagem_de_Sucesso</div>
+        }
+
+
+    <!--Adicionar evento 'submit' no código C# p/ capturar os dados-->
+    <form class="cadastro-form" @onsubmit="CadastrarAluno">
         <div class="form-grupo">
             <label class="form-label">Nome do Usuário</label>
-            <input type="text" class="form-input"/>
+            <input type="text" class="form-input" @bind="novoAluno.Nome"/>
         </div>
 
         <div class="form-grupo">
             <label class="form-label">RA</label>
-            <input type="number" class="form-input"/>
+            <input type="number" class="form-input" @bind="novoAluno.RA"/>
         </div>
 
         <div class="form-grupo">
             <label class="form-label">Curso</label>
-            <select class="form-input">
+            <select class="form-input" @bind="novoAluno.CursoID">
                 <option value="">Selecione...</option>
-                <option>Desenvolvedor Back-End</option>
-                <option>Programação em Java</option>
-                <option>Fundamentos de Python</option>
-            </select>
+                    @foreach (var cursoItem in cursos.Curso)
+                    {
+                        <option value="@cursoItem.Key">@cursoItem.Value</option>
+                    }
+                </select>
         </div>
         
         <button type="submit" class="btn-cadastro">
-            Cadastrar
+            @(cadastrando ? "Cadastrando..." : "Cadastrar")
         </button>
     </form>
 </div>
@@ -73,10 +83,13 @@
                 mensagem_de_Erro = resultado.Mensagem;
             }
         }
-        catch
+        finally
         {
-            
+            cadastrando = false;
         }
     }
-
+    protected override void OnInitialized()
+    {
+        novoAluno = new Aluno();
+    }
 }

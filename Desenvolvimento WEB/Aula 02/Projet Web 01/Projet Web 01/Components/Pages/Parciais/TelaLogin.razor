@@ -1,4 +1,12 @@
-﻿<main class="corpo-pagina">
+﻿@using System.ComponentModel.DataAnnotations
+@using Projet_Web_01.Classes.Entidades;
+@using Projet_Web_01.Classes.Serv;
+@inject AuthService authService
+@inject NavigationManager navigationManager;
+@inject IJSRuntime jSRuntime
+@rendermode InteractiveServer 
+
+<main class="corpo-pagina">
     <div class="log-container">
         <div class="login-cabecalho">
             <h1 class="login-titulo">Acesso ao WI-FI</h1>
