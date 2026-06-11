@@ -58,11 +58,11 @@ body{
 {
     color: white;
     background-color: #e30613;
-        margin:0;
-        text-align: center;
-        text-decoration: underline;
-        font-size: 3rem;
-        font-family: sans-serif;
+    margin:0;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3rem;
+    font-family: sans-serif;
 }
 /*estilo rodapé*/
 .footer {
@@ -96,7 +96,7 @@ body{
     background-color: white;
     padding:2rem;
     border-radius: 0.5rem;
-    box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
+    box-shadow: -15px 15px 25px -5px rgba(0,0,0,0.2) , 15px 15px 25px -5px rgba(0,0,0,0.2);
     border-top: 4px solid #b91d32;
     width: 100%;
     max-width:28rem;
@@ -141,12 +141,14 @@ body{
     border-radius: 0.75rem;
 }
 
-.form-input{
-    display:block;
-    width:90%;
+.form-input {
+    display: block;
+    justify-items:center;
+    transition: all 1s cubic-bezier(0, 0, 0.5, 1);
+    width: 95%;
 }
 
-.form-input:focus{
+.form-input:hover{
     border-color: #b91d32;
     box-shadow: 0 0 0 3px rgba(185, 29, 50, 0.1);
     outline:none;

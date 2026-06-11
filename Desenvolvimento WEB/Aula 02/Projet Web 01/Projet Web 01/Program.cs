@@ -15,9 +15,10 @@ context.Database.EnsureCreated();
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
-
+//Serviços da página
 builder.Services.AddDbContext<AlunoContext>();
 builder.Services.AddScoped<AlunoService>();
+builder.Services.AddScoped<AuthService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
