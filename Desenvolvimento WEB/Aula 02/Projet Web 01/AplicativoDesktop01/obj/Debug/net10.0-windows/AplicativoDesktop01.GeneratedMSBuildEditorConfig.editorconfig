@@ -14,6 +14,7 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EntryPointFilePath = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AplicativoDesktop01
 build_property.ProjectDir = C:\Users\FIC\Documents\CSharp2026\Desenvolvimento WEB\Aula 02\Projet Web 01\AplicativoDesktop01\

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FIC\\Documents\\CSharp2026\\Desenvolvimento WEB\\Aula 02\\Projet Web 01\\Projet Web 01\\Projet Web 01.csproj": {}
+    "C:\\Users\\FIC\\Documents\\CSharp2026\\Desenvolvimento WEB\\Aula 02\\Projet Web 01\\ProjetoAPI01\\ProjetoAPI01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FIC\\Documents\\CSharp2026\\Desenvolvimento WEB\\Aula 02\\Projet Web 01\\Projet Web 01\\Projet Web 01.csproj": {
+    "C:\\Users\\FIC\\Documents\\CSharp2026\\Desenvolvimento WEB\\Aula 02\\Projet Web 01\\ProjetoAPI01\\ProjetoAPI01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FIC\\Documents\\CSharp2026\\Desenvolvimento WEB\\Aula 02\\Projet Web 01\\Projet Web 01\\Projet Web 01.csproj",
-        "projectName": "Projet_Web_01",
-        "projectPath": "C:\\Users\\FIC\\Documents\\CSharp2026\\Desenvolvimento WEB\\Aula 02\\Projet Web 01\\Projet Web 01\\Projet Web 01.csproj",
+        "projectUniqueName": "C:\\Users\\FIC\\Documents\\CSharp2026\\Desenvolvimento WEB\\Aula 02\\Projet Web 01\\ProjetoAPI01\\ProjetoAPI01.csproj",
+        "projectName": "ProjetoAPI01",
+        "projectPath": "C:\\Users\\FIC\\Documents\\CSharp2026\\Desenvolvimento WEB\\Aula 02\\Projet Web 01\\ProjetoAPI01\\ProjetoAPI01.csproj",
         "packagesPath": "C:\\Users\\FIC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FIC\\Documents\\CSharp2026\\Desenvolvimento WEB\\Aula 02\\Projet Web 01\\Projet Web 01\\obj\\",
+        "outputPath": "C:\\Users\\FIC\\Documents\\CSharp2026\\Desenvolvimento WEB\\Aula 02\\Projet Web 01\\ProjetoAPI01\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,33 +52,13 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
-            "Microsoft.AspNetCore.App.Internal.Assets": {
-              "suppressParent": "All",
+            "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[10.0.9, )",
-              "autoReferenced": true
+              "version": "[10.0.9, )"
             },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[7.0.1, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[10.0.8, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[10.0.8, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[10.0.8, )"
-            },
-            "Microsoft.SqlServer.Server": {
-              "target": "Package",
-              "version": "[1.0.0, )"
             }
           },
           "imports": [
