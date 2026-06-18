@@ -12,14 +12,14 @@ namespace ProjetoAPI01.Classes.Repositorio
             this.stringConexao = conexao;
         }
 
-        //Consulta dó usuário por email e senha, retorna somente dados necessário para o login
-        public async Task<UsuarioDTO?> BuscarPorEmailESenha (string email, string senha, CancellationToken cancellationToken)
+        //Consulta do usuário por email e senha, retorna somente dados necessário para o login
+        public async Task<UsuarioDTO?> BuscarPorEmailESenha(string email, string senha, CancellationToken cancellationToken)
         {
             await using var conexao = new SqlConnection(stringConexao);
             await conexao.OpenAsync(cancellationToken);
 
             const string comandoSQL = """
-                SELECT TOP 1 Id, Nome, Regra
+                SELECT TOP 1 ID, Nome, Regra
                 FROM Alunos
                 WHERE Email = @email AND Senha = @senha
                 """;
@@ -28,13 +28,14 @@ namespace ProjetoAPI01.Classes.Repositorio
             comando.Parameters.AddWithValue("@senha", senha);
 
             await using var leitor = await comando.ExecuteReaderAsync(cancellationToken);
-            if (await leitor.ReadAsync(cancellationToken))
+            if (!await leitor.ReadAsync(cancellationToken))
             {
                 return null;
             }
+
             return new UsuarioDTO
             {
-                Id = leitor.GetInt32(leitor.GetOrdinal("Id")),
+                Id = leitor.GetInt32(leitor.GetOrdinal("ID")),
                 Nome = leitor.GetString(leitor.GetOrdinal("Nome")),
                 Regra = leitor.GetInt32(leitor.GetOrdinal("Regra"))
             };

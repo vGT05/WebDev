@@ -206,7 +206,6 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Tela de Login";
             TopMost = true;
-            Load += TelaLogin_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();

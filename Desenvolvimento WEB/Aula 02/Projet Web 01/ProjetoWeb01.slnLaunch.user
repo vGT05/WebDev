@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Desktop com API",
+    "Projects": [
+      {
+        "Path": "AplicativoDesktop01\\AplicativoDesktop01.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ProjetoAPI01\\ProjetoAPI01.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

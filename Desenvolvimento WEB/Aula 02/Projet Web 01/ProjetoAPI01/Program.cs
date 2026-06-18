@@ -4,17 +4,17 @@ using ProjetoAPI01.Classes.Repositorio;
 using ProjetoAPI01.Classes.DTO;
 
 
-var builder = WebApplication.CreateSlimBuilder(args);
+var builder = WebApplication.CreateBuilder(args);
 
 var stringConexaoBancoAluno = builder.Configuration.GetConnectionString("Aluno") ?? throw new InvalidOperationException("A string de conexão 'Aluno' não foi encontrada no appsettings.json");
 
 // Add services.
 builder.Services.ConfigureHttpJsonOptions(options =>
 {
-    options.SerializerOptions.TypeInfoResolverChain.Insert(0, AppJsonSerializerContext.Default);
+    options.SerializerOptions.TypeInfoResolverChain.Insert(0, AppJsonSerialierContext.Default);
 });
 
-builder.Services.AddScoped(uwu => RepositorioUsuario(stringConexaoBancoAluno));
+builder.Services.AddScoped(_ => new RepositorioUsuario(stringConexaoBancoAluno));
 
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
@@ -31,7 +31,9 @@ var gruposUsuarios = app.MapGroup("/api/usuarios");
 //Endpoint REST responsável por autenticar o usuário
 
 gruposUsuarios.MapPost("/login", async Task<IResult> (
-    [FromBody] LoginRequestDTO dadosLogin, RepositorioUsuario repostitorioUsuario, CancellationToken cancellationToken) =>
+    [FromBody] LoginRequestDTO dadosLogin, 
+    RepositorioUsuario repositorioUsuario, 
+    CancellationToken cancellationToken) =>
 {
     if (string.IsNullOrWhiteSpace(dadosLogin.Email) || string.IsNullOrWhiteSpace(dadosLogin.Senha))
     {
@@ -41,7 +43,7 @@ gruposUsuarios.MapPost("/login", async Task<IResult> (
             Mensagem = "E-mail e senha são obrigatórios."
         });
     }
-    var usuario = await repostitorioUsuario.BuscarPorEmailESenha(dadosLogin.Email, dadosLogin.Senha, cancellationToken);
+    var usuario = await repositorioUsuario.BuscarPorEmailESenha(dadosLogin.Email, dadosLogin.Senha, cancellationToken);
 
     if (usuario is null)
     {
@@ -53,7 +55,7 @@ gruposUsuarios.MapPost("/login", async Task<IResult> (
         Sucesso = true,
         Mensagem = "Login realizado com sucesso",
         Nome = usuario.Nome,
-        Regra = usuario.Regra,
+        Regra = usuario.Regra
     });
 
 }).WithName("LoginUsuario");

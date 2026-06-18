@@ -1,0 +1,57 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "ProjetoAPI01 | v1",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:5143"
+    }
+  ],
+  "paths": {
+    "/api/usuarios/login": {
+      "post": {
+        "tags": [
+          "ProjetoAPI01"
+        ],
+        "operationId": "LoginUsuario",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequestDTO"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "LoginRequestDTO": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string"
+          },
+          "senha": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "ProjetoAPI01"
+    }
+  ]
+}
