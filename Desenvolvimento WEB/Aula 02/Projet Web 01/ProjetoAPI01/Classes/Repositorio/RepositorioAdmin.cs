@@ -18,7 +18,7 @@ namespace ProjetoAPI01.Classes.Repositorio
             await using var conexao = new SqlConnection(stringConexao);
             await conexao.OpenAsync(cancellationToken);
 
-            const string sql = "SELECT ID, Nome, Regra, StatusWIFI, StatusAction FROM Alunos";
+            const string sql = "SELECT ID, RA, Nome, Regra, StatusWIFI, StatusAction FROM Alunos";
             await using var cmd = new SqlCommand(sql, conexao);
             await using var reader = await cmd.ExecuteReaderAsync(cancellationToken);
             while (await reader.ReadAsync(cancellationToken))
@@ -26,6 +26,7 @@ namespace ProjetoAPI01.Classes.Repositorio
                 resultado.Add(new UsuarioAdminDTO
                 {
                     Id = reader.GetInt32(reader.GetOrdinal("ID")),
+                    RA = reader.IsDBNull(reader.GetOrdinal("RA")) ? 0 : reader.GetInt32(reader.GetOrdinal("RA")),
                     Nome = reader.IsDBNull(reader.GetOrdinal("Nome")) ? string.Empty : reader.GetString(reader.GetOrdinal("Nome")),
                     Regra = reader.IsDBNull(reader.GetOrdinal("Regra")) ? 0 : reader.GetInt32(reader.GetOrdinal("Regra")),
                     StatusWIFI = reader.IsDBNull(reader.GetOrdinal("StatusWIFI")) ? string.Empty : reader.GetString(reader.GetOrdinal("StatusWIFI")),

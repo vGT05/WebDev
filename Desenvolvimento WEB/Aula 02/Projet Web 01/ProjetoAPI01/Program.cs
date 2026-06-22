@@ -61,7 +61,7 @@ gruposUsuarios.MapPost("/login", async Task<IResult> (
 
 }).WithName("LoginUsuario");
 
-// Endpoints admin (lista e atualiza status) usando RepositorioAdmin
+// Admin endpoints
 gruposUsuarios.MapGet("/admin", async (RepositorioAdmin repo, CancellationToken ct) =>
 {
     var lista = await repo.ListarParaAdminAsync(ct);
@@ -78,8 +78,7 @@ app.Run();
 
 [JsonSerializable(typeof(LoginRequestDTO))]
 [JsonSerializable(typeof(LoginResponseDTO))]
-[JsonSerializable(typeof(UsuarioAdminDTO))]
-[JsonSerializable(typeof(AdminUpdateDTO))]
+
 internal partial class AppJsonSerialierContext : JsonSerializerContext
 {
 
